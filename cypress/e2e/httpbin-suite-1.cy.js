@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-
+//test
 describe("httpbin tests - suite 1", () => {
   //Suite 1 - happy path testing (GET, POST, DELETE)
   //Preparing data for test 1
