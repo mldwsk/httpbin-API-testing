@@ -1,0 +1,4 @@
+name: Cypress.io
+
+on: [push]
+uses: cypress-io/github-action@v5.6.1
