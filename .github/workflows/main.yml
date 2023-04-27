@@ -1,9 +1,12 @@
-name: Cypress.io
+name: Cypress tests
 
 on: [push]
-uses: cypress-io/github-action@v5.6.1
 
 jobs: 
   cypress-run:
-    build: npm run build
-    start: npm start
+    steps:
+      name: Cypress run
+      uses: cypress-io/github-action@v5.6.1
+        with:
+          build: npm run build
+          start: npm start
