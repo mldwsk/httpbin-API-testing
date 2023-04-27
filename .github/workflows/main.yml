@@ -3,7 +3,7 @@ on: push
 jobs:
  cypress-run:
   name: Cypress run
-   runs-on: ubuntu-22.04
-   steps:
-     - name:  Cypress run
-        uses: cypress-io/github-action@v5
+  runs-on: ubuntu-latest
+  steps:
+    - name:  Cypress run
+      uses: cypress-io/github-action@v5
